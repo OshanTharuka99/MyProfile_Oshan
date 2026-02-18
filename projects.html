@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Engineer Portfolio | Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Roboto+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Global Animated Background -->
+    <div class="tech-bg">
+        <div class="particle p1"></div>
+        <div class="particle p2"></div>
+        <div class="particle p3"></div>
+        <div class="particle p4"></div>
+        <div class="particle p5"></div>
+        <div class="particle p6"></div>
+        <div class="particle p7"></div>
+        <div class="particle p8"></div>
+    </div>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Oshan <span class="highlight">Tharuka</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Me</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section-padding" style="margin-top: 80px;">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+            <div class="cards-grid">
+
+                <!-- Project 1 -->
+                <div class="card project-card">
+                    <div class="project-img-placeholder">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Datacenter Migration</h3>
+                        <p>Successfully planned and executed the migration of a 500-user datacenter, ensuring zero
+                            downtime for critical services. Implemented redundant switching and routing protocols.</p>
+                        <ul class="tech-stack">
+                            <li>Cisco Nexus</li>
+                            <li>VMware</li>
+                            <li>BGP</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="card project-card">
+                    <div class="project-img-placeholder">
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Campus-Wide Wi-Fi Deployment</h3>
+                        <p>Designed and deployed a high-density wireless network for a university campus. Conducted site
+                            surveys and optimized AP placement for maximal coverage and throughput.</p>
+                        <ul class="tech-stack">
+                            <li>Cisco Meraki</li>
+                            <li>Ekahau</li>
+                            <li>802.11ax</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="card project-card">
+                    <div class="project-img-placeholder">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Network Security Hardening</h3>
+                        <p>Implemented 802.1X authentication and segmented network traffic using VLANs and VRFs to
+                            improve internal security posture. Configured next-gen firewalls.</p>
+                        <ul class="tech-stack">
+                            <li>Fortigate</li>
+                            <li>ISE</li>
+                            <li>Radius</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .project-card {
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .project-img-placeholder {
+            height: 200px;
+            background: linear-gradient(45deg, #1a1a2e, #162447);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 4rem;
+            color: var(--primary-color);
+        }
+
+        .project-info {
+            padding: 25px;
+        }
+
+        .project-info h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .tech-stack li {
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            color: #ccc;
+        }
+    </style>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2024 Network Engineer Portfolio. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
